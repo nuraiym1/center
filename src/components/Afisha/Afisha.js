@@ -3,6 +3,7 @@ import afishaImg from "../../assets/images/afisha.png";
 import afishaImg1 from "../../assets/images/afisha1.png";
 
 const Afisha = () => {
+  //ghjggiu
   return (
     <div id="afisha">
         <div className="afisha">
