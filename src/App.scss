@@ -1,0 +1,16 @@
+@import'../src/assets/styles/header.scss';
+@import'../src/assets/styles/header1.scss';
+@import'../src/assets/styles/home.scss';
+@import'../src/assets/styles/afisha.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,89 @@
+#afisha {
+  padding: 100px 0;
+  .afisha{
+
+    h1{
+      text-align: center;
+      font-size: 60px;
+      padding: 100px;
+    }
+    .topAfisha {
+      overflow-x: auto;
+      width: 90%;
+      display: flex;
+      margin-left: 100px;
+      gap: 30px;
+      img{
+        width: 400px;
+        height: 400px;
+      }
+    }
+    &--card{
+      position: relative;
+      &__text{
+        position: absolute;
+        top: 1%;
+        left: 150px;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        padding:  15px 10px;
+        background: rgb(237, 49, 237);
+      }
+      a{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        font-size: 20px;
+        color: white;
+      }
+      h2{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        font-size: 25px;
+        color: white; 
+      }
+      &__text1{
+        position: absolute;
+        top: 70%;
+        left: 10px;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        padding:  15px 10px;
+        background: rgb(237, 49, 237);
+      }
+    
+    }
+    &--card1{
+      position: relative;
+      &__text{
+        position: absolute;
+        top: 1%;
+        left: 150px;
+        color: white;
+        border-bottom-right-radius: 10px;
+        font-size: 18px;
+        padding:  15px 10px;
+        background: rgb(237, 49, 237);
+      }
+      a{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        font-size: 20px;
+        color: white;
+      }
+      h2{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        font-size: 25px;
+        color: white; 
+      }
+     
+    
+    }
+  }
+}

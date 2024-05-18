@@ -1,0 +1,29 @@
+#home {
+  background: url("../images/homeImg.png");
+  height: 84vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .home {
+    padding: 120px;
+    position: absolute;
+    &--top {
+      img {
+        position: relative;
+        left: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        position: relative;
+        left: 230px;
+        color: white;
+        font-size: 65px;
+        text-align: center;
+        padding: 20px;
+      }
+    }
+  }
+}

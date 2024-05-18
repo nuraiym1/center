@@ -1,0 +1,42 @@
+#header {
+  padding: 20px 20px;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      color: #000000;
+    }
+    &--content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
+    }
+    &--text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 20px;
+    }
+    &--text1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 20px;
+    }
+    &--btn {
+      button {
+        padding: 10px 17px;
+        font-size: 15px;
+        border-radius: 10px;
+        background: #0082fe;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

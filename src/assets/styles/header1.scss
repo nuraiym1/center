@@ -1,0 +1,18 @@
+#header1 {
+  padding: 20px 15px;
+  background: #02061D;
+
+  .header1 {
+    a{
+      color: white;
+    }
+    &--tek {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 90px;
+      font-size: 20px;
+     
+    }
+  }
+}
